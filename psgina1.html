@@ -10,20 +10,46 @@
 
 			if (clave1 == "admin" && clave2 == "conejo"){
 				alert("los datos coinciden...\n bienvenido");
-				var href = "hrml/principal.html"}
+				var href = "principal.html";;
+				window.location=href;
+			}
+
+			else{
+				alert("error...\nintentelo nuevamente.");
+				var href = "pagina1.html";
+				window.location=href;
+
+			};
+		}
 	</script>
 </head>
 <body>
 	<body background="https://i.pinimg.com/originals/68/8f/f3/688ff3931cd05926fa378dbae6a0709d.jpg"></body>
-
 	<h1>Hoja de vida</h1>
 	<h1>Roger adan tuch tzoy</h1>
-	<img src="\kyoresu\riro\cochito.jpg" width="100" height="100">
-	<hr color="white">
+	<h1>validar usuario y password</h1>
+	<br>
+	<h1>presionar botor de ingresar</h1>
+
+	<br>
+	<form action="" name="f1">
+		<center>
+			<hr color = "LightPink">
+usuario: <input type="password" name="clave1" size="20">
+<br><br>
+contraseña: <input type="password" name="clave2" size="20">
+<br><br>
+<input type="button" value="ingresar" onclick="comprobarclave()">
+<br>
+</center>
+<hr color ="LightPink">	
+	<center><img src="\kyoresu\riro\cochito.jpg" width="100" height="100"></center>
+	<hr color="LightPink">
 	<a href="html/uno.html"><font color="black">Personales</font></a>&nbsp;&nbsp;
 	<a href="html/dos.html"><font color="black">Estudios</font></a>&nbsp;&nbsp;
 	<a href="html/tres.html"><font color="black">Capacitaciones</font></a>&nbsp;&nbsp;
 	<a href="html/cuatro.html"><font color="black">Referencias</font></a>&nbsp;&nbsp;
+	</form>
 
 </body>
 </html>
